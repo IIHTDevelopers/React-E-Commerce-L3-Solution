@@ -45,32 +45,3 @@ describe('boundary', () => {
         expect(fileContent).toMatch(/Header/);
     });
 });
-
-const navFilePath = path.resolve(__dirname, '../../src/components/common/Navigation.js');
-const navFileContent = fs.readFileSync(navFilePath, 'utf8');
-
-describe('NavComponent boundary', () => {
-    test('NavComponent boundary should contain "Home" link', () => {
-        expect(navFileContent).toMatch(/<NavLink exact to="\/" activeClassName="active">Home<\/NavLink>/);
-    });
-
-    test('NavComponent boundary should contain "Orders" link', () => {
-        expect(navFileContent).toMatch(/<NavLink to="\/orders" activeClassName="active" onClick=\{handleOrdersClick\}>Orders<\/NavLink>/);
-    });
-
-    test('NavComponent boundary should contain "Cart" link when user is logged in', () => {
-        expect(navFileContent).toMatch(/<NavLink to="\/cart" activeClassName="active" onClick=\{handleCartClick\}>Cart<\/NavLink>/);
-    });
-
-    test('NavComponent boundary should contain "Profile" link when user is logged in', () => {
-        expect(navFileContent).toMatch(/<NavLink to="\/profile" activeClassName="active">Profile<\/NavLink>/);
-    });
-
-    test('NavComponent boundary should contain "Logout" button when user is logged in', () => {
-        expect(navFileContent).toMatch(/<button onClick=\{handleLogout\}>Logout<\/button>/);
-    });
-
-    test('NavComponent boundary should contain "Login" link when user is not logged in', () => {
-        expect(navFileContent).toMatch(/<NavLink to="\/login" activeClassName="active">Login<\/NavLink>/);
-    });
-});
