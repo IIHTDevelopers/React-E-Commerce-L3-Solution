@@ -1,0 +1,203 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "description": "A high-performance laptop",
+      "price": 1200,
+      "category": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "description": "A latest-gen smartphone",
+      "price": 800,
+      "category": "Electronics"
+    },
+    {
+      "id": 3,
+      "name": "Running Shoes",
+      "description": "Comfortable running shoes",
+      "price": 120,
+      "category": "Sportswear"
+    },
+    {
+      "id": 4,
+      "name": "Wristwatch",
+      "description": "Stylish wristwatch",
+      "price": 250,
+      "category": "Accessories"
+    },
+    {
+      "id": 5,
+      "name": "Backpack",
+      "description": "Durable backpack",
+      "price": 75,
+      "category": "Accessories"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "name": "Bob Williams",
+      "email": "bob@example.com",
+      "password": "password123"
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "email": "charlie@example.com",
+      "password": "password123"
+    },
+    {
+      "id": 4,
+      "name": "Dana White",
+      "email": "dana@example.com",
+      "password": "password123"
+    },
+    {
+      "id": 5,
+      "name": "Eve Black",
+      "email": "eve@example.com",
+      "password": "password123"
+    }
+  ],
+  "orders": [
+    {
+      "userId": 1,
+      "productId": 1,
+      "quantity": 1,
+      "totalPrice": 1200,
+      "status": "Processing",
+      "orderDate": "2024-07-09",
+      "shippingDate": null,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "productId": 2,
+      "quantity": 2,
+      "totalPrice": 1600,
+      "status": "Processing",
+      "orderDate": "2024-07-09",
+      "shippingDate": null,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "productId": 1,
+      "quantity": 1,
+      "totalPrice": 1200,
+      "status": "Processing",
+      "orderDate": "2024-07-09",
+      "shippingDate": null,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "productId": 2,
+      "quantity": 2,
+      "totalPrice": 1600,
+      "status": "Processing",
+      "orderDate": "2024-07-09",
+      "shippingDate": null,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "productId": 1,
+      "quantity": 1,
+      "totalPrice": 1200,
+      "status": "Processing",
+      "orderDate": "2024-07-09",
+      "shippingDate": null,
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "productId": 2,
+      "quantity": 2,
+      "totalPrice": 1600,
+      "status": "Processing",
+      "orderDate": "2024-07-09",
+      "shippingDate": null,
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "productId": 2,
+      "quantity": 2,
+      "totalPrice": 1600,
+      "status": "Processing",
+      "orderDate": "2024-07-09",
+      "shippingDate": null,
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "productId": 4,
+      "quantity": 1,
+      "totalPrice": 250,
+      "status": "Processing",
+      "orderDate": "2024-07-09",
+      "shippingDate": null,
+      "id": 8
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 1,
+      "userId": 1,
+      "rating": 5,
+      "comment": "Great laptop! Highly recommend.",
+      "date": "2023-07-06"
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "userId": 2,
+      "rating": 4,
+      "comment": "Good value for money.",
+      "date": "2023-07-07"
+    },
+    {
+      "id": 3,
+      "productId": 3,
+      "userId": 3,
+      "rating": 3,
+      "comment": "Comfortable but could be more durable.",
+      "date": "2023-07-08"
+    },
+    {
+      "id": 4,
+      "productId": 4,
+      "userId": 4,
+      "rating": 5,
+      "comment": "Stylish and works perfectly.",
+      "date": "2023-07-09"
+    },
+    {
+      "id": 5,
+      "productId": 5,
+      "userId": 5,
+      "rating": 4,
+      "comment": "Good backpack for the price.",
+      "date": "2023-07-10"
+    }
+  ],
+  "cart": [
+    {
+      "userId": 1,
+      "productId": 4,
+      "quantity": 1,
+      "id": 1
+    }
+  ]
+}
